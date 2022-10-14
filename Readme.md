@@ -1,4 +1,4 @@
-# CodeChef ADGITM
+<h1 align="center"> CodeChef ADGITM </h1>
 
 <img width="2295" alt="logo" src="https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png">
 <div align="center">
@@ -20,3 +20,58 @@ Hacktoberfest, in its 8th year, is a month-long celebration of open source softw
 * Donate directly to open source projects
 
 <br>
+
+<p align="center"><a href="https://www.google.com" target="_blank"><img src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo-3.png" title="CodeChef-ADGITM" alt="Codechef-ADGITM"></a>
+</p>
+
+# Project Title
+
+> <Subtitle>
+> Include project description here.
+
+---
+[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
+  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
+
+## Features
+- Insert list of features here
+
+## Screenshots
+<table>
+  <tr>
+      <td>
+    <img
+        src="Images/home_page.png"
+        width="450px">
+      </td>
+      <td>  
+    <img
+        src="Images/section-1.png"
+        width="450px">
+      </td>
+  </tr>
+  <tr>
+    <td>  
+    <img
+        src="Images/section-2.png"
+        width="450px">
+      </td>
+    <td>  
+    <img
+        src="Images/section-3.png"
+        width="450px">
+      </td>
+  </tr>
+</table>
+
+
+## Contributors
+- <a href="https://github.com/<Contributor>"> Contributor Name </a>
+- <a href="https://github.com/<Contributor>"> Contributor Name </a>
+
+## License
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+<p align="center">
+	With :heart: by <a href="https://www.google.com" target="_blank">CodeChef-ADGITM</a>
+</p>
