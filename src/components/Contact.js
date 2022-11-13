@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import {faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import './style.css';
 
 
@@ -12,10 +14,12 @@ const Contact = () =>{
    <>
 
     <div className='splitsection  contact-form-main'>
-      <div data-aos="fade-right" className='first-child quote'>
-        <p>“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.”</p>
+      <div data-aos="fade-up">
+        <h2>Get in touch !</h2>
+        <h6 className='availablity'>Always available for freelancing if the right project comes along, <br/> Feel free to contact me.</h6>
+        
       </div>
-      <div data-aos="fade-left" className='second-child'>
+      <div data-aos="fade-up" className='second-child'>
       <div className="Wrapper">
 
       <div className='contact-container'>
@@ -42,8 +46,7 @@ const Contact = () =>{
               rows="6"
               cutoComplete="off"
               required></textarea>
-
-            <input type="submit" value="send"/>
+            <button className='btn'>Send</button>
           </form>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import './style.css';
 
-const About = () =>{
+export const About = () =>{
   useEffect(()=> {
     Aos.init({duration: 2000});
   },[]);
@@ -18,16 +18,23 @@ const About = () =>{
     <div className='abt'>
    
       <h2>About</h2>
-      <p data-aos="fade-right" className='abt-para'>lorem hi my name is arya kumari hi
-         mt anme is arya and I am a goos girl with lots and lots of conficdence and I am good at everything nice to meet you
-         CSS is capable of making all sorts of shapes. Squares and rectangles are easy, as they are the natural shapes of the web. Add a width and height and you have the exact size rectangle you need. Add border-radius and you can round that shape, and enough of it you can turn those rectangles into circles and ovals.
-         CSS is capable of making all sorts of shapes. Squares and rectangles are easy, as they are the natural shapes of the web. Add a width and height and you have the exact size rectangle you need. Add border-radius and you can round that shape, and enough of it you can turn those rectangles into circles and ovals.
-         CSS is capable of making all sorts of shapes. Squares and rectangles are easy, as they are the natural shapes of the web. Add a width and height and you have the exact size rectangle you need. Add border-radius and you can round that shape, and enough of it you can turn those rectangles into circles and ovals.
-         CSS is capable of making all sorts of shapes. Squares and rectangles are easy, as they are the natural shapes of the web. Add a width and height and you have the exact size rectangle you need. Add border-radius and you can round that shape, and enough of it you can turn those rectangles into circles and ovals.
-         CSS is capable of making all sorts of shapes. Squares and rectangles are easy, as they are the natural shapes of the we
-         b. Add a width and height and you have the exact size rectangle you need. Add border-radius and you can round that shape, 
-         and enough of it you can turn those rectangles into circles and ovals.
+      <p data-aos="fade-right" className='abt-para'>I am Arya Kumari a Web developer and a cp lover. The little I know about myself is that I am interested in becoming a data analyst. I am always enthusiastic enough to check for all the new technologies and keep myself updated on the tech world.
+I have little experience in the industry sector as a web developer as I have done an internship in a startup company and I am always trying my best to learn and be on top.
+I am an enthusiastic and hard-working girl with a keen interest in the tech sector. I completed my schooling
+       from Pragati public school, Delhi, and currently, I am pursuing a bachelor's in technology in the field of Information technology from Indraprastha university.
+                        I am proficient in Java and Python Programming Language and Front-end Web Development. Additionally, I am skilled at building websites and
+                         creating web apps using HTML, CSS and JS, and database management tools.
+                        Apart from academics, I am inclined towards graphic designing and reading. And in my free time, I like to explore more of the 
+                        tech world like cloud computing and data analysis.
+                    
       </p>
+
+      <div className='info'>
+        <h6><strong>Date of birth :</strong>16 April 1990<br/></h6>
+        <h6><strong>Spoken Languages :</strong>English - French - Spanish<br/></h6>
+        <h6><strong>Nationality :</strong>German<br/></h6>
+        <h6><strong>Interest :</strong>Music, Reading, journey<br/></h6>
+      </div>
     </div>
     </>
   );

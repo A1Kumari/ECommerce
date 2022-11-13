@@ -1,4 +1,7 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import {faDownload} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import './style.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -16,10 +19,11 @@ function CollapsibleExample() {
 
               </Nav>
               <Nav>
-                <Nav.Link href="#deets">Home</Nav.Link>
-                <Nav.Link href="#deets">About</Nav.Link>
-                <Nav.Link href="#deets">Skills</Nav.Link>
-                <Nav.Link href="#deets">Contact me</Nav.Link>
+                <Nav.Link href="/Home">Home</Nav.Link>
+                <Nav.Link href="/About">About</Nav.Link>
+                <Nav.Link href="/Skills">Skills</Nav.Link>
+                <Nav.Link href="/Contact">Contact me</Nav.Link>&nbsp; &nbsp; 
+                <button className='btn'>Download CV <FontAwesomeIcon icon={faDownload}/> </button>
               </Nav>
             </Navbar.Collapse>
           </Container>

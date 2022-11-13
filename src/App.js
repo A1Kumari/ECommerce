@@ -1,16 +1,16 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import ClipLoader from "react-spinners/ClipLoader";
-
 import "bootstrap/dist/css/bootstrap.min.css";
-import About from "./components/About";
-import Pricing from "./components/Pricing";
 import Home from "./components/Home";
+import About from "./components/About";
+import Box from "./components/Box";
+import Pricing from "./components/Pricing";
 import Skills from "./components/Skills";
-import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Project from './components/Project';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -35,14 +35,14 @@ function App() {
       /></div>):(
         <>
             <Navbar/>
+            <Project/>
             <Home/>
             <About/>
             <Skills/>
             <Pricing/>
-            <Project/>
+            <Box/>
             <Contact/>
             <Footer/>
-          
         </>
       )
 }

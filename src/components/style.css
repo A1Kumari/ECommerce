@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,200&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 *{
     margin:o;
     padding: 0;
@@ -7,7 +10,7 @@
 }
 body{
     background-color: var(--black);
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Nova Round', cursive;
 }
 body h1,h2,h3{
     font-family: 'Cantata One';
@@ -17,6 +20,16 @@ body p{
     font-family: 'Didact Gothic';
     color: white;
 }
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fdfdfe;
+    font-family: 'Nova Round', cursive;
+    padding: 30px;
+    padding-top: 0;
+    text-shadow: 0px 0px 5px #54B9C4, 0px 0px 10px #54B9C4, 0px 0px 10px #54B9C4,
+      0px 0px 20px #54B9C4;
+  }
 :root {
     --black: #1C6E7D;
     --dark-blue:#001d3d;
@@ -38,7 +51,9 @@ body p{
     height:400px;
     width: 450px;
 }
-
+.home-text{
+    font-family: 'Nova Round', cursive;
+}
 
 .typewrite {
     font-family: sans-serif;
@@ -55,8 +70,23 @@ body p{
     background-color: var(--dark-yellow);
 }
 .abt-para{
-    margin: 20px;
-    padding: 140px;
+    margin: 110px;
+    margin-top: 0 !important;
+    font-size: 17px !important;
+    line-height: 25px;
+}
+.abt-para p{
+    font-family: 'Nova Round', cursive;
+    font-size: 74px !important;
+    line-height: 30px;
+}
+.info{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 50px;
+}
+.info h6{
+    color:white;
 }
 .triangle-bottomleft {
     width: 0;
@@ -88,9 +118,10 @@ body p{
   }
   
 /*Skills*/
+
 .skill-img{
-    height: 300px;
-    width: 300px;
+    height: 380px;
+    width: 450px;
 }
 .skill-box .title{
     font-size: 20px;
@@ -172,85 +203,65 @@ body p{
     background-color: crimson;
     transform: translate(-50%) rotate(45deg);
 }
-/*project*/
+
+/*Boxes*/
+
 .prj{
     height: 300px;
 }
-.projectContainer{
-    display: inline;
-}
-.prj-container{
-   
-}
-.prj-box{
-    display:inline-block;
-    width: 25%;
-    height: 300px;
-    background-color: #54B9C4;
-    margin: 20px;
-    border-radius: 20px;
-    margin-top: 80px;
-    z-index: 9;
-}
-.prj-box:hover{
-    background-color: red;
-    transform: rotateY(180deg);
-}
-.flip-box {
-    display:inline-block;
-    width: 25%;
-    height: 300px;
-    background-color: #54B9C4;
-    margin: 20px;
-    border-radius: 20px;
-    margin-top: 80px;
-    z-index: 9;
-    background-color: transparent;
 
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-box-inner {
+
+.card{
+    position: relative;
+    display:inline-block;
+    height: 300px;
+    z-index: 9;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #54B9C4;
+    cursor: pointer;
+    margin: 25px;
+    margin-top: -100px;
+}
+.card:hover{
+    height: 420px;
+}
+.imgbox{
     position: relative;
     width: 100%;
     height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
-    position: absolute;
+    transform: translateY(-80px);
+    z-index: 99;
+}
+.heroImg{
     width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side */
-  .flip-box-front {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    margin-top: -70px;
+}
+.content{
+    padding: 10px 20px;
+    text-align: center;
    
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-box-back {
-   
-    color: white;
-    transform: rotateY(180deg);
-  }
-
+    transform: translateY(-450px);
+    opacity: 0;
+    transition: 0.3s;
+}
+.content p{
+    color: #000;
+}
+.card:hover > .content{
+    opacity: 1;
+    transform: translateY(30px);
+}
+/*contact me*/
 
 /*  “Website without visitors is like a ship lost in the horizon.”<br/>
 “Great web design without functionality is like a sports car with no engine.”<br/>*/
-/*contact me*/
+
 .splitsection{
     height: 500px;
     width: 100%;
@@ -262,28 +273,42 @@ body p{
     width: 100%;
     display: grid;
     grid-template-columns: auto auto;
+    margin-left: -140px;
 }
 .first-child{
     background-color: transparent;
 }
-.quote p{
-    padding: 30px;
-    color: white;
-    font-size: 38px;
-    font-weight: 400;
-    line-height: 60px;
-    font-family: 'Poppins', sans-serif;
-    margin-left: 80px;
-}
+
 .second-child{
     background-color: transparent;
-    padding: 50px;
-    padding-left: 0;
+    margin-right: 0px;
+   
+}
+.availablity{
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 140px;
+    text-align: left;
+}
+.social{
+    text-align: left;
+    margin-left: 140px;
+    margin-top: 30px;
+    line-height: 5;
+}
+.social-media{
+    font-size: 30px;
+    padding: 5px;
+    background-color: #54656F;
+    margin-top:20px; 
+}
+span1{
+    vertical-align: middle;
+    padding: 30px;
     padding-top: 0;
 }
-
 .contact-form-main{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .contact-container{
     margin-top:6rem;
@@ -319,14 +344,23 @@ input[type=submit]{
    background-color: #54B9C4;
    border: 1px solid #000;
 }
+.btn{
+        max-width: 10rem;
+        background-color: #54B9C4;
+        border: 1px solid #000;
+}
 /*footer*/
 .footer{
     background-color: var(--dark-yellow);
     height:200px;
     border-radius: 30px;
     padding: 30px;
+    color: #fff;
 }
 
 .love{
     color: white;
+}
+.quote{
+    font-size: 21px;
 }

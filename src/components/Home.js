@@ -1,15 +1,17 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
+import {faUser} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import heroImg from "./images/DALL_E2.png";
 import './style.css';
 
 
 
-function Home() {
+export const Home=()=> {
   return (
     <>
       <img src={heroImg} alt="hero-img"/>
-      <h1>Hi👋, I am</h1>
+      <h1 className='home-text'>Hi, I am<span> Arya kumari </span>a</h1>
       <div className="typewrite">
       <Typewriter
   
