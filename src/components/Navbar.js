@@ -1,4 +1,5 @@
 import React from 'react';
+import LOGO from "./images/logo.png";
 import {Link} from 'react-router-dom';
 import {faDownload} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
@@ -12,7 +13,7 @@ function CollapsibleExample() {
     return (
         <Navbar collapseOnSelect expand="lg" className='navbar'>
           <Container>
-            <Navbar.Brand href="#home" className='diffFont'>LOGO</Navbar.Brand>
+            <Navbar.Brand href="#home" className='diffFont'><img className="logo" src={LOGO} alt="logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
