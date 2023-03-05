@@ -1,5 +1,41 @@
 <h1 align="center"> CodeChef ADGITM </h1>
 
+## Contributing Guidelines
+
+Contributions are always welcome!
+
+First Fork and Clone this repository on your local machine.
+
+Start working on a new feature:
+
+```bash
+git checkout master
+git pull origin master
+git checkout -b feature-branch
+[...work on the feature...]
+git add --all
+git commit -m 'My super-duper feature'
+git push -u origin feature-branch
+```
+
+After Testing and validating. If more changes are required:
+
+```bash
+git checkout feature-branch
+git pull origin master
+[add more commits]
+git push
+```
+
+Once everything is validated:
+
+```bash
+git checkout master
+git pull origin master
+git merge feature-branch
+git push origin master
+```
+
 <img width="2295" alt="logo" src="https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png">
 <div align="center">
 
@@ -10,14 +46,13 @@
 
 </div>
 
-
 Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:
 
-* Prepare and share your project for collaboration
-* Contribute to the betterment of a project via pull requests
-* Organize an event
-* Mentor others
-* Donate directly to open source projects
+- Prepare and share your project for collaboration
+- Contribute to the betterment of a project via pull requests
+- Organize an event
+- Mentor others
+- Donate directly to open source projects
 
 <br>
 
@@ -28,15 +63,18 @@ Hacktoberfest, in its 8th year, is a month-long celebration of open source softw
 
 > <Subtitle>
 > Include project description here.
-<a href="https://www.figma.com/proto/e7klCZHK89Vh3e5BOIoxrR/Codechef-Website?node-id=24%3A178&scaling=min-zoom&page-id=0%3A1">Figma Design File</a>
----
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
-  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://www.figma.com/proto/e7klCZHK89Vh3e5BOIoxrR/Codechef-Website?node-id=24%3A178&scaling=min-zoom&page-id=0%3A1)
+
+## <a href="https://www.figma.com/proto/e7klCZHK89Vh3e5BOIoxrR/Codechef-Website?node-id=24%3A178&scaling=min-zoom&page-id=0%3A1">Figma Design File</a>
+
+[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE)
+[![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://www.figma.com/proto/e7klCZHK89Vh3e5BOIoxrR/Codechef-Website?node-id=24%3A178&scaling=min-zoom&page-id=0%3A1)
 
 ## Features
+
 - Insert list of features here
 
 ## Screenshots
+
 <table>
   <tr>
       <td>
@@ -64,12 +102,13 @@ Hacktoberfest, in its 8th year, is a month-long celebration of open source softw
   </tr>
 </table>
 
-
 ## Contributors
+
 - <a href="https://github.com/<Contributor>"> Contributor Name </a>
 - <a href="https://github.com/<Contributor>"> Contributor Name </a>
 
 ## License
+
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 <p align="center">
