@@ -1,0 +1,46 @@
+.Nav {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background: url("https://user-images.githubusercontent.com/86917304/222977730-e0510f10-9368-406b-89fd-2ec97abcfe85.png")
+    fixed no-repeat right bottom;
+  /* background-position:; */
+}
+
+.RightPolygon {
+  position: absolute;
+  width: 828.2px;
+  height: 689.92px;
+  left: 1562.2px;
+  top: -13.31px;
+  background: #e1f0ff;
+  transform: matrix(-0.98, -0.18, -0.18, 0.98, 0, 0);
+}
+
+.NavbarContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.NavRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.RightButton {
+  border: 2px solid black;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 6px 20px;
+  color: #1f3d75;
+}
+
+.NavbarText {
+  color: #1f3d75;
+}

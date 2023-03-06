@@ -1,0 +1,79 @@
+.main {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.Container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+}
+
+.Top {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.TopRight {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.mediaCon {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin-top: 15px;
+}
+
+.media {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.Bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  align-items: center;
+}
+
+.BottomLeft {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.BottomRight {
+  color: #a3a7b1;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  column-gap: 14px;
+  align-items: center;
+}
+
+.Bar {
+  background: #21658c;
+  height: 2px;
+  width: 70%;
+  /* position: absolute; */
+  /* padding: 0px 40px; */
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.TopContainer {
+  display: flex;
+  justify-content: center;
+}

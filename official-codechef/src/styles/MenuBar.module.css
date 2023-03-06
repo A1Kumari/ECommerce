@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  color: #1f3d75;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+  /* z-index: 999; */
+  border-radius: 30px;
+}
+
+.Container div {
+  cursor: pointer;
+}
+
+.main {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  width: 50vw;
+}
