@@ -1,0 +1,160 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+.head{
+  text-align: center;
+}
+.heading{
+    color: #000;
+    font-size:3rem;
+    font-weight:bold;
+    line-height: 0;
+    }
+    
+.sub_heading{
+    color: #696060;
+    line-height: 0;
+    font-size: larger;
+    
+}
+.main{
+    display: flex;
+    width: 85%;
+    background-color: #E9F4FF;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+}
+/* left */
+.left{
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background-color: #21658C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 26%;
+    overflow: hidden;
+}
+.lefthead{
+    color: white;
+    font-size: larger;
+   margin-left: -4.2rem;
+}
+.img{
+   margin-left:1rem;
+   margin-right: 1rem;
+}
+.bottomcontent{
+display: flex;
+flex-direction: column;
+}
+.icons{
+    display: flex;
+    align-items: center;
+   
+   
+}
+.icontext{
+    font-size: small;
+    color: white;
+    margin-left: 0.5rem;
+  
+}
+
+/* right */
+.right{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.input1{
+    display: flex;
+ }
+ .input1a{
+    margin-right:4rem ;
+    width: 50%;
+ }
+ .input1a input{
+    width: 100%;
+    background-color:  #E9F4FF;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: #21658C;
+    margin-top: 1rem;
+  
+ }
+ .input1a input:focus{
+   outline: none;
+ }
+ .input1 label{
+    color: #494848;
+    font-size: larger;
+    
+ }
+
+
+ .input2 label{
+    color: #494848;
+    font-size: larger;
+ }
+ .input2 input{
+    width: 91%;
+    background-color:  #E9F4FF;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: #21658C;
+ }
+ .input2 input:focus{
+    outline: none;
+ }
+ .btn{
+    width: 28%;
+    background-color: #21658C;
+    border-style: none;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.6rem;
+    font-size: large;
+    cursor: pointer;
+ }
+
+ @media (max-width:768px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input1{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 80%;
+    }
+    .btn{
+        width: 65%;
+        margin-top: 0.4rem;
+        margin-bottom:0.4rem;
+    }
+    .input1a input{
+        margin-top: 0.8rem;
+        margin-bottom: 0.4rem;
+    }
+  .input1a{
+        width: 70%;
+  }
+  .input2 input{
+    width: 100%;
+  }
+ }
+ @media (max-width:1070px){
+    .lefthead{
+        margin-left: -0.5rem;
+    }
+ }
