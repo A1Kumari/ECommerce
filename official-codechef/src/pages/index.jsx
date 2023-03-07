@@ -1,6 +1,7 @@
 import MenuBar from "../components/Home/MenuBar";
 import LeadershipTeam from "@/data/leadershipTeam";
 import { Inter } from "next/font/google";
+import PastEvents from "@/components/Home/PastEvents";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,6 +11,7 @@ export default function Home() {
       <h1 className={inter.className} style={{ marginBottom: "60px" }}>
         Home Page
       </h1>
+      <PastEvents />
     </main>
   );
 }
