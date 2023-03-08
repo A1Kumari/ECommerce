@@ -1,0 +1,87 @@
+.main {
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 10px;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 22px;
+  display: flex;
+  justify-content: flex-start;
+  width: 65%;
+  border-bottom: 6px solid #3a8cbb;
+  border-right: 6px solid #3a8cbb;
+  padding: 20px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.RightContent {
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 10px;
+  width: 200px;
+  height: 320px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Events {
+  width: 407px;
+  height: 364px;
+}
+
+.Text {
+  line-height: 37.5px;
+  font-size: 20px;
+  /* flex: 2; */
+}
+
+.BottomIcon {
+  display: flex;
+  column-gap: 10px;
+  margin-left: 230px;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.belowCard {
+  font-size: 30px;
+  text-align: center;
+  color: #192f69;
+  position: relative;
+  padding: 10px 20px;
+  background-color: #e1f0ff;
+  width: 103px;
+  top: -24.5rem;
+  left: 30px;
+  height: 103px;
+}
+
+.TopDot {
+  display: flex;
+  flex-direction: row;
+  column-gap: 6px;
+  /* flex: 1; */
+}
+
+.BelowBorder {
+  border-top: 6px solid #3a8cbb;
+  color: white;
+  width: 270px;
+  position: relative;
+  top: 20px;
+  left: -5px;
+  border-left: 6px solid #3a8cbb;
+  height: 70px;
+}
