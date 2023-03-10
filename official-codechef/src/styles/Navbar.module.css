@@ -2,8 +2,8 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  background: url("https://user-images.githubusercontent.com/86917304/222977730-e0510f10-9368-406b-89fd-2ec97abcfe85.png")
-    fixed no-repeat right bottom;
+  /* background: url("https://user-images.githubusercontent.com/86917304/222977730-e0510f10-9368-406b-89fd-2ec97abcfe85.png")
+    fixed no-repeat right bottom; */
   /* background-position:; */
 }
 
