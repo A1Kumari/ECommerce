@@ -79,3 +79,30 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .Container {
+    width: 50%;
+    row-gap: 40px;
+  }
+  .icon {
+    column-gap: 6px;
+  }
+  .Bottom {
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+  }
+  .BottomLeft {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .BottomRight {
+    margin-top: 15px;
+  }
+}

@@ -22,3 +22,18 @@
   left: 20%;
   width: 50vw;
 }
+
+@media (max-width: 768px) {
+  .Container {
+    flex-direction: column;
+    border-radius: 10px;
+    width: 90vw;
+    justify-content: center;
+    row-gap: 20px;
+    background-color: white;
+  }
+  .main {
+    top: 14.5%;
+    left: 5%;
+  }
+}

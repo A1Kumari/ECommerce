@@ -86,14 +86,14 @@ body {
 }
 
 body {
-   color: rgb(var(--foreground-rgb)); 
+  /* color: rgb(var(--foreground-rgb));  */
   color: black;
- background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb)); 
+    rgb(var(--background-start-rgb));  */
   background-color: white;
 }
 
@@ -106,4 +106,4 @@ a {
   html {
     color-scheme: dark;
   }
-} 
+}

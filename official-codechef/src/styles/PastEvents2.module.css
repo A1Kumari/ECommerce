@@ -85,3 +85,24 @@
   border-left: 6px solid #3a8cbb;
   height: 70px;
 }
+
+@media (max-width: 768px) {
+  .Container {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .BottomIcon {
+    margin-left: 0;
+  }
+  .heading {
+    width: max-content;
+    /* padding-left: 10px; */
+    font-size: 17px;
+  }
+  .BelowBorder {
+    width: 90vw;
+  }
+  .main {
+    margin-bottom: 4rem;
+  }
+}
