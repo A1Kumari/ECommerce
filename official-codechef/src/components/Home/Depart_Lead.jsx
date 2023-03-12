@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../../styles/Depart.module.css";
 import Image from 'next/image';
-import MngtImg from "../../../public/assets/Mngt.png"
+import MngtIPmg from "../../../public/assets/Mngt.png"
 import Team from "../../../public/assets/team.png"
 const Depart_Lead = () => {
   return (
